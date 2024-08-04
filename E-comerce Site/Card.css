@@ -1,0 +1,17 @@
+.card {
+  box-shadow: 3px 3px #ccc, -0.3em 0 .4em #ccc;
+  transition: transform 0.3s ease-in-out; /* Adjusted the transition to target the transform property */
+  cursor: pointer;
+  margin:10px 20px;
+  width: 330px;
+  margin-left: 50px;
+  
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Moves the card up by 5px */
+}
+
+.card img {
+  height: 250px;
+}

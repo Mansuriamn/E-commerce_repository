@@ -1,0 +1,100 @@
+.encar {
+  margin: 0px 0px;
+  cursor: pointer;
+  font-weight: 600;
+  border-bottom: 1px solid transparent; 
+  box-sizing: border-box; 
+}
+
+.encar:hover {
+  border-bottom: 1px solid white;
+}
+
+.top {
+  width: 980px;
+  height: 319px;
+  background: #6c757d;
+  position: fixed;
+  top: 35%;
+  box-shadow: 2px 2px white, -0.3em 0 .4em white;
+  left: 46%;
+  border-radius:5px;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.5s; /* Transition for opacity and visibility */
+  z-index: 1;
+}
+
+.encar:hover + .top,
+.top:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.top b {
+  color: #white;
+  font-size:600;
+  cursor:pointer;
+}
+
+.top p {
+  color: white;
+   font-size:400;
+  cursor:pointer;
+  border-bottom: 1px solid transparent; /* Add border-bottom for hover effect */
+}
+
+.top p:hover {
+  border-bottom: 1px solid #DEF9C4; /* Change border-bottom color on hover */
+}
+
+
+.topic{
+  display: flex;
+  justifyContent:space-around;
+ align-items:cennter;
+  margin-top:10px;
+  padding:15px;
+}.topic b{
+  margin-bottom:5px;
+  margin-right:20px;
+}.topic p{
+  margin-top:20px;
+   margin-right:20px;
+}
+
+
+
+.come {
+  background: rgba(3, 1, 1, 0.1);
+  width: 500px;
+  height: 350px;
+  
+  position: relative;
+  margin-bottom: 265px;
+  
+  
+  box-shadow: 3px 3px #ccc, -1em 0 .4em #ccc;
+  border-radius: 5px;
+  background-image: url('https://plus.unsplash.com/premium_photo-1672883551967-ab11316526b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHNob3BwaW5nfGVufDB8fDB8fHww');
+  transition: 3s ease-in-out;
+  display: none;
+  left: 50%;
+  top: -500px;
+  transition: 1s;
+  transform: translate(-50%, -50%);
+}
+
+.come input {
+  width: 470px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.go {
+  display: block;
+  transition: 3s ease-in-out;
+  top:300px;
+}
+

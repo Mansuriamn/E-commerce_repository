@@ -1,0 +1,170 @@
+/* Personelcard.module.css */
+
+.maindata {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.slidedata {
+  width: 30%;
+  margin-left: 200px;
+  margin-top: 100px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 11px;
+  border-radius: 5px;
+}
+
+.pricedata {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 30%;
+  position: relative;
+  right: 113px;
+  top: 100px;
+  background:white;
+  height: 290px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.pricedata h3 {
+  margin-top: 10px;
+  margin-left: 173px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  background: #50B498;
+  border-radius: 18px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  width: 94px;
+  margin-left: 165px;
+}
+
+.rating i {
+  margin-left: 5px;
+}
+
+.rating h4 {
+  margin: 0;
+}
+
+.delivery {
+  margin-top: 20px;
+  padding: 5px 10px;
+  width: 190px;
+  text-align: center;
+  margin-left: 122px;
+  background: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.detail {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+   background:white;
+  width: 448px;
+  position: relative;
+  left: 939px;
+  bottom: 180px;
+}
+
+.detail h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.but {
+  border: 1px solid #9f2089;
+  font-size: 20px;
+  transition: transform 0.3s ease-in-out;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+}
+
+.but:hover {
+  transform: translateY(-5px);
+}
+
+.buycard {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+ 
+  bottom: 545px;
+  left: 219px;
+  position: relative;
+}.buycard button{
+   background:white;
+}
+
+.information {
+  border: 1px solid #ccc;
+  padding: 20px;
+   background:white;
+  margin: 20px auto;
+  width: 34%;
+  position: relative;
+  bottom: 525px;
+  left: -324px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.information h4 {
+  text-align: center;
+  color: #ad0fe6;
+  margin-bottom: 20px;
+}
+
+.information h6 {
+  margin-bottom: 10px;
+}
+
+.reviews {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+   background:white;
+  width: 70%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reviews h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.review {
+  margin-bottom: 20px;
+}
+
+.review h4 {
+  margin-bottom: 5px;
+}
+
+.name {
+  text-align: center;
+}
+
+.userdata {
+  position: relative;
+  bottom: 410px;
+}
+
+.slidedata img {
+  height: 427px;
+  background:white;
+}
